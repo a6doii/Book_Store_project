@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../CSS/Bookly.css"> -->
+    <title>Bookly</title>
+</head>
+<body>
+    <header>
+        <h1>Bookly</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="Bookly.html">Home</a></li>
+            <li>
+                <select id="pageLinks" onchange="window.location.href=this.value;" >
+                    <option value="#" selected disabled id="1">Categories</option>
+                    <option value="Historical-Books.html">Historical Books</option>
+                    <option value="Philosophical-Books.html">Philosophical Books</option>
+                    <option value="Romantic-Books.html">Romantic Books</option>
+                </select>
+            </li>
+            <li><a href="top-rated.html">Top Rated</a></li>
+            <li><a href="my-book.html">My Books</a></li>
+            <li><a href="sign-Up.html">Sign Up</a></li>
+            <li><a href="log-in.html">log in</a></li>
+        </ul>
+    </nav>
+    <!-- <aside>
+        important websites
+        <ul>
+            <li><a href="https://mktbtypdf.com/">Mktbty pdf</a></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </aside> -->
+    
+    <!-- <script>
+        function redirectToCategory() {
+            var selectedOption = document.getElementById("pageLinks").value;
+            if (selectedOption !== "#") {
+                window.location.href = selectedOption;
+                document.getElementById("pageLinks").value = document.getElementById("1").value; // Reset to the default option
+            }
+        }
+    </script> -->
+    <footer>
+        <a href="mailto:lymhsnbdalmnsf@gmail.com">connect us</a>
+        <a href="about-us.html">about us</a>
+    </footer>
+
+</body>
+</html>
