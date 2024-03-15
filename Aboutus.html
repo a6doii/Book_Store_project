@@ -9,6 +9,31 @@
         <header>
             <h1>Bookly</h1>
         </header>
+        <nav>
+            <div class="logo" class="bookly">Bookly</div>
+            <a href="Bookly.html" class="home">Home</a>
+            <a href="Top-Rated.html" class="top-rated">Top Rated</a>
+            <a href="my-books.html" class="my-books">My Books</a>
+            <a href="Log-in.html" class="log-in">Log in</a>
+            <a href="sign-up.html" class="sign-in">sign in</a>
+            <select id="pageLinks" onchange="window.location.href=this.value;">
+              <option value="#" selected disabled id="1">Categories</option>
+              <option value="Historical-Books.html">Historical Books</option>
+              <option value="Philosophical-Books.html">Philosophical Books</option>
+              <option value="Romantic-Books.html">Romantic Books</option>
+              <option value="Horror.html">Horror Books</option>
+              <option value="Fantasy.html">Fantasy Books</option>
+              <option value="Mystery-and-Crime.html">Crime and Mystery Books</option>
+              <option value="Poetry.html">Potery</option>
+          </select>
+              <div class="search-bar">
+                <input type="text" placeholder="Search for a book or author" />
+                <button type="submit">Search</button>
+              </div>
+              <div class="add-book">
+                <a href="add-book.html">add Book</a>
+              </div>
+        </nav>
         <div class="quote">
             <p>The more that you read, the more things you will know</p>
         <content>
