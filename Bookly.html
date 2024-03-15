@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        width: 250px;
+        height: 300px;
+        border: 3px solid #323232;
+        border-radius: 10px;
+        display: inline-block;
+        padding: 5px;
+        margin: 10px;
+      }
+      nav {
+        background-color: #333;
+        overflow: hidden;
+        width: 100%;
+        position: fixed;
+        display: flex;
+      }
+
+      .logo {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      nav a ,nav div{
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      nav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .search-bar {
+        padding: 10px;
+        margin: 10px;
+        position: absolute;
+        right: 0;
+      }
+
+      .BodyBackGround {
+        background-color: #f5f5f5;
+      }
+      button:hover {
+        background-color: black;
+        color: white;
+        transition: 0.5s;
+      }
+      .box {
+        width: 250px;
+        height: 300px;
+        border: 3px solid #323232;
+        border-radius: 10px;
+        display: inline-block;
+        padding: 10px;
+        margin: 50px;
+      }
+    </style>
+    <title>Book Store</title>
+  </head>
+  <body class="BodyBackGround">
+    <nav>
+      <div class="logo" class="bookly">Bookly</div>
+      <a href="Bookly.html" class="home">Home</a>
+      <a href="Top-Rated.html" class="top-rated">Top Rated</a>
+      <a href="my-books.html" class="my-books">My Books</a>
+      <a href="Log-in.html" class="log-in">Log in</a>
+      <a href="sign-up.html" class="sign-in">sign in</a>
+      <select id="pageLinks" onchange="window.location.href=this.value;">
+        <option value="#" selected disabled id="1">Categories</option>
+        <option value="Historical-Books.html">Historical Books</option>
+        <option value="Philosophical-Books.html">Philosophical Books</option>
+        <option value="Romantic-Books.html">Romantic Books</option>
+        <option value="Horror.html">Horror Books</option>
+        <option value="Fantasy.html">Fantasy Books</option>
+        <option value="Mystery-and-Crime.html">Crime and Mystery Books</option>
+    </select>
+        <div class="search-bar">
+          <input type="text" placeholder="Search for a book or author" />
+          <button type="submit">Search</button>
+        </div>
+        <div class="add-book">
+          <a href="add-book.html">Add Book</a>
+        </div>
+        <div class="select-book">
+          <a href="select-book.html">Select Book</a>
+        </div>
+      </nav>
+      <div class="book">
+          <a href="https://en.wikipedia.org/wiki/Rich_Dad_Poor_Dad" class="box" style="background-image: url(https://m.media-amazon.com/images/I/81bsw6fnUiL._AC_UF1000,1000_QL80_.jpg); background-size: cover;">  
+          </a>
+      </div>
+      <div class="book">
+        <a href="https://en.wikipedia.org/wiki/How_(book)"
+        class="box"
+        style="background-image: url(https://i.ebayimg.com/images/g/WjIAAOSwR3diFBvE/s-l1600.jpg); background-size: cover;">  
+        </a>
+    </div>
+    <div class="book">
+      <a href="https://www.goodreads.com/book/show/12609433-the-power-of-habit"
+      class="box"
+      style="background-image: url(https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1545854312i/12609433.jpg); background-size: cover;">  
+      </a>
+  </div>
+    
+    <div
+    class="box"
+    style="background-image: url(TheTwoTowers.jpg); background-size: cover"
+    ></div>
+    <div
+    class="box"
+    style="background-image: url(download.jpeg); background-size: cover"
+    ></div>
+    
+    <!-- <script>
+      function openPage(selectElement) {
+        var selectedValue = selectElement.value;
+        if (selectedValue !== "default") {
+          window.location.href = selectedValue;
+        }
+      }
+      </script> -->
+      <footer>
+        <a href="#contact">Contact</a>
+        <a href="Aboutus.html" target="_blank">About us</a>
+      </footer>
+  </body>
+  </html>

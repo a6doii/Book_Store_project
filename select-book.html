@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Books</title>
+</head>
+<body>
+    <div class="file-selection">
+        <form action="/submit" method="post">
+            <label for="book-id">Book ID:</label><br>
+            <input type="text" id="book-id" name="id"><br>
+            <br>
+            <label for="select_field">Select Field to Edit:</label><br>
+            <select id="select_field" >
+            <option value="#" selected disabled id="1">Fields</option>
+            <option value="field1">Description</option>
+            <option value="field2">Author Name</option>
+            <option value="field3">ID</option>
+            <option value="field4">Delete</option>
+            </select><br><br>
+            <label for="edited_value">Edited Value:</label><br>
+            <input type="text" id="edited_value"><br><br>
+            <button>Edit Field</button>         
+            <button>Delete</button>         
+        </form>
+    </div>
+    <footer>
+        <a href="#contact">Contact</a>
+        <a href="Aboutus.html" target="_blank">About us</a>
+      </footer>
+</body>
+</html>
