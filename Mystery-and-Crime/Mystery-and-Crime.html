@@ -5,34 +5,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Book Store</title>
 </head>
 
 <body>
+    <div class="logo" class="bookly">
+        <h1>Bookly</h1>
+    </div>
     <nav>
-        <div class="logo" class="bookly">Bookly</div>
-        <a href="Bookly.html" class="home">Home</a>
-        <a href="Top-Rated.html" class="top-rated">Top Rated</a>
+        <a href="Home.html" class="home">Home</a>
+        <a href="TopRated.html" class="top-rated">Top Rated</a>
         <a href="my-books.html" class="my-books">My Books</a>
-        <a href="Log-in.html" class="log-in">Log in</a>
-        <a href="sign-up.html" class="sign-in">sign in</a>
+        <a href="add-book.html" class="add-book"> Add Book </a>
+        <a href="Log-in.html" class="log-in"> Log Out</a>
+    </nav>
+    <div class="search">
+        <label for="searchbutton"> Search</label>
+        <input type="text" id="searchbutton" placeholder="Enter book or author name">
         <select id="pageLinks" onchange="window.location.href=this.value;">
             <option value="#" selected disabled id="1">Categories</option>
-            <option value="Historical-Books.html">Historical Books</option>
-            <option value="Philosophical-Books.html">Philosophical Books</option>
-            <option value="Romantic-Books.html">Romantic Books</option>
-            <option value="Horror.html">Horror Books</option>
-            <option value="Fantasy.html">Fantasy Books</option>
+            <option value="Historical-Books.html">Historical</option>
+            <option value="Philosophical-Books.html">Philosophical </option>
+            <option value="Romantic-Books.html">Romantic </option>
+            <option value="Horror.html">Horror </option>
+            <option value="Fantasy.html">Fantasy </option>
+            <option value="Poetry.html">Poetry </option>
             <option value="Mystery-and-Crime.html">Crime and Mystery Books</option>
         </select>
-        <div class="search-bar">
-            <input type="text" placeholder="Search for a book or author" />
-            <button type="submit">Search</button>
-        </div>
-        <div class="add-book">
-            <a href="add-book.html">add Book</a>
-        </div>
-    </nav>
+    </div>
     <main>
         <div class="Mystery-and-Crime-books">
             <!--the figure1-Crime-page -->
@@ -44,10 +45,16 @@
 
 
                     <div class="button">
-                        <p id="element1-Crime-and-Mystery-page">Not Borrowed</p>
-                        <button id="borrow-button1-Crime-and-Mystery-page">Borrow Element</button>
+                        <p id="element1-peotry-page">Available</p>
+                        <button id="borrow-button1-peotry-page">Borrow </button>
+                        <div class="add-book">
+                            <a href="add-book.html"> <button> Edit</button></a>
+                        </div>
+
                     </div>
+
                 </figure>
+
             </div>
             <!--the 2 book-->
             <div class="And-Then-There-Were-None">
@@ -56,8 +63,12 @@
 
 
                     <div class="button">
-                        <p id="element2-Crime-and-Mystery-page">Not Borrowed</p>
-                        <button id="borrow-button2-Crime-and-Mystery-page">Borrow Element</button>
+                        <p id="element2-peotry-page">Available</p>
+                        <button id="borrow-button2-peotry-page">Borrow </button>
+                        <div class="add-book">
+                            <a href="add-book.html"> <button> Edit</button></a>
+                        </div>
+
                     </div>
                 </figure>
             </div>
@@ -70,8 +81,12 @@
 
 
                     <div class="button">
-                        <p id="element3-Crime-and-Mystery-page">Not Borrowed</p>
-                        <button id="borrow-button3-Crime-and-Mystery-page">Borrow Element</button>
+                        <p id="element3-peotry-page">Available</p>
+                        <button id="borrow-button3-peotry-page">Borrow </button>
+                        <div class="add-book">
+                            <a href="add-book.html"> <button> Edit</button></a>
+                        </div>
+
                     </div>
                 </figure>
 
@@ -84,10 +99,15 @@
 
 
                     <div class="button">
-                        <p id="element4-Crime-and-Mystery-page">Not Borrowed</p>
-                        <button id="borrow-button4-Crime-and-Mystery-page">Borrow Element</button>
+                        <p id="element4-peotry-page">Available</p>
+                        <button id="borrow-button4-peotry-page">Borrow </button>
+                        <div class="add-book">
+                            <a href="add-book.html"> <button> Edit</button></a>
+                        </div>
+
                     </div>
                 </figure>
+
             </div>
             <!--the 5  book-->
             <div class="In-Cold-Blood">
@@ -97,8 +117,12 @@
 
 
                     <div class="button">
-                        <p id="element5-Crime-and-Mystery-page">Not Borrowed</p>
-                        <button id="borrow-button5-Crime-and-Mystery-page">Borrow Element</button>
+                        <p id="element5-peotry-page">Available</p>
+                        <button id="borrow-button5-peotry-page">Borrow </button>
+                        <div class="add-book">
+                            <a href="add-book.html"> <button> Edit</button></a>
+                        </div>
+
                     </div>
                 </figure>
 
@@ -111,11 +135,14 @@
 
 
                     <div class="button">
-                        <p id="element6-Crime-and-Mystery-page">Not Borrowed</p>
-                        <button id="borrow-button6-Crime-and-Mystery-page">Borrow Element</button>
+                        <p id="element6-peotry-page">Available</p>
+                        <button id="borrow-button6-peotry-page">Borrow </button>
+                        <div class="add-book">
+                            <a href="add-book.html"> <button> Edit</button></a>
+                        </div>
+
                     </div>
                 </figure>
-
             </div>
             <!--the 7  book-->
             <div class="The-Lovely-Bones">
@@ -125,10 +152,15 @@
 
 
                     <div class="button">
-                        <p id="element7-Crime-and-Mystery-page">Not Borrowed</p>
-                        <button id="borrow-button7-Crime-and-Mystery-page">Borrow Element</button>
+                        <p id="element7-peotry-page">Available</p>
+                        <button id="borrow-button7-peotry-page">Borrow </button>
+                        <div class="add-book">
+                            <a href="add-book.html"> <button> Edit</button></a>
+                        </div>
+
                     </div>
                 </figure>
+
 
             </div>
             <!--the 8  book-->
@@ -139,10 +171,15 @@
 
 
                     <div class="button">
-                        <p id="element8-Crime-and-Mystery-page">Not Borrowed</p>
-                        <button id="borrow-button8-Crime-and-Mystery-page">Borrow Element</button>
+                        <p id="element8-peotry-page">Available</p>
+                        <button id="borrow-button8-peotry-page">Borrow </button>
+                        <div class="add-book">
+                            <a href="add-book.html"> <button> Edit</button></a>
+                        </div>
+
                     </div>
                 </figure>
+
 
             </div>
             <!--the 9  book-->
@@ -153,10 +190,15 @@
 
 
                     <div class="button">
-                        <p id="element9-Crime-and-Mystery-page">Not Borrowed</p>
-                        <button id="borrow-button9-Crime-and-Mystery-page">Borrow Element</button>
+                        <p id="element9-peotry-page">Available</p>
+                        <button id="borrow-button9-peotry-page">Borrow </button>
+                        <div class="add-book">
+                            <a href="add-book.html"> <button> Edit</button></a>
+                        </div>
+
                     </div>
                 </figure>
+
 
             </div>
             <!--the 10  book-->
@@ -167,8 +209,12 @@
 
 
                     <div class="button">
-                        <p id="element10-Crime-and-Mystery-page">Not Borrowed</p>
-                        <button id="borrow-button10-Crime-and-Mystery-page">Borrow Element</button>
+                        <p id="element10-peotry-page">Available</p>
+                        <button id="borrow-button10-peotry-page">Borrow </button>
+                        <div class="add-book">
+                            <a href="add-book.html"> <button> Edit</button></a>
+                        </div>
+
                     </div>
                 </figure>
 
@@ -181,10 +227,15 @@
 
 
                     <div class="button">
-                        <p id="element11-Crime-and-Mystery-page">Not Borrowed</p>
-                        <button id="borrow-button11-Crime-and-Mystery-page">Borrow Element</button>
+                        <p id="element11-peotry-page">Available</p>
+                        <button id="borrow-button11-peotry-page">Borrow </button>
+                        <div class="add-book">
+                            <a href="add-book.html"> <button> Edit</button></a>
+                        </div>
+
                     </div>
                 </figure>
+
 
             </div>
             <!--the 12  book-->
@@ -195,10 +246,15 @@
 
 
                     <div class="button">
-                        <p id="element12-Crime-and-Mystery-page">Not Borrowed</p>
-                        <button id="borrow-button12-Crime-and-Mystery-page">Borrow Element</button>
+                        <p id="element12-peotry-page">Available</p>
+                        <button id="borrow-button12-peotry-page">Borrow </button>
+                        <div class="add-book">
+                            <a href="add-book.html"> <button> Edit</button></a>
+                        </div>
+
                     </div>
                 </figure>
+
 
             </div>
             <!-- the class of all books -->
